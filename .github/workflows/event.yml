@@ -2,7 +2,7 @@ name: "on push"
 on: 
   push:
     branches:
-      - master
+      - main
 jobs:
   file-info:
     runs-on: ubunto-latest
