@@ -1,4 +1,4 @@
-name: "schedule cron"
+name: "Schedule Cron"
 on:
     schedule:
         - cron: "*/2 * * * *"
@@ -6,5 +6,5 @@ jobs:
     schedulecron:
         runs-on: ubuntu-latest
         steps:
-            - name: in fo
-              run: echo "schedule job that run every two minutes"
+            - name: Info
+              run: echo "Scheduled job that runs every two minutes"
