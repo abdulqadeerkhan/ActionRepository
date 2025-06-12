@@ -8,4 +8,4 @@ jobs:
     runs-on: ubunto-latest
     steps:
       - name: "info"
-        run: echo "my test event action"
+        run: echo "my test event actionv"
