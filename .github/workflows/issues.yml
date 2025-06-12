@@ -1,0 +1,14 @@
+name:"issue workflow"
+on:
+  issues:
+    types:
+      - opened
+jobs:
+  issues:
+    runs-on:ubuntu-latest
+    steps:
+      - name:triiger when issues comes
+        run: echo "workflow run on opening of issue"
+      
+      
+    
