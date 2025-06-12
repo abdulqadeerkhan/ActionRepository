@@ -1,14 +1,11 @@
-name:"issue workflow"
+name: "Issue Workflow"
 on:
   issues:
     types:
       - opened
 jobs:
-  issues:
-    runs-on:ubuntu-latest
+  issue_trigger:
+    runs-on: ubuntu-latest
     steps:
-      - name:triiger when issues comes
-        run: echo "workflow run on opening of issue"
-      
-      
-    
+      - name: Trigger when issues come
+        run: echo "Workflow run on opening of issue"
