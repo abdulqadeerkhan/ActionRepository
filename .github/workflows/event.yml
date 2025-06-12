@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   file-info:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - name: "info"
         run: echo "my test event actionv"
